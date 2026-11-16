@@ -18,6 +18,8 @@ The research satellite sends data to Earth through a chain of relays. One relay 
 
 The mission illustrates how incident containment and service recovery work together. Isolating the relay cuts the original route, so the backup link must be available for the test packet to reach Ground.
 
+<img width="1428" height="1075" alt="constellation-guardian" src="https://github.com/user-attachments/assets/48e22cab-a5af-4ee4-aea8-9aca91916f6e" />
+
 ## Controls
 
 | Mode | How to play |
