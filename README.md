@@ -71,3 +71,9 @@ The visual refresh adds a stylised Earth, a starfield, clearer satellite labels,
 ## Credits
 
 Built by Jyothi Srinivasan. The project started from Meta's Immersive Web SDK template. See the repository's `LICENSE` and attribution files for applicable notices.
+
+## Hackathon
+
+Constellation Guardian was built for the [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) in the **Gaming** track, **New Experience** division.
+
+[Play Constellation Guardian](https://constellation-guardian.pages.dev/)
