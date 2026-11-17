@@ -2,21 +2,33 @@
 
 A seated WebXR cybersecurity game set in a fictional satellite network. In the **Broken Relay** mission, you investigate suspicious command traffic, isolate a compromised relay, and restore communications with Earth.
 
-**[Play the hosted build](https://constellation-guardian.pages.dev/)**
-
 Built for the **Meta VR Start Developer Competition 2026** — Gaming track, New Experience division.
+
+- [Play the hosted build](https://constellation-guardian.pages.dev/)
+- [Watch the 24-second XR demo on YouTube](https://youtu.be/pePrSeimrMI)
 
 ## The mission: Broken Relay
 
-The research satellite sends data to Earth through a chain of relays. One relay is forwarding commands that fail verification. Inspect the satellites, identify the source of the suspicious traffic, and contain it while keeping the ground station reachable.
+A cyberattack has compromised one of the five satellites, causing it to forward commands that fail verification. Identify and isolate the compromised relay, then activate a backup link so the remaining satellites can route data to the ground station. Send a test packet to confirm that communications have been restored.
 
-1. **Inspect.** Select a satellite to read its command verification and traffic evidence.
-2. **Contain.** Select the suspect relay and activate **Isolate** to cut its primary links.
-3. **Restore.** Activate **Link D–E** to open the backup path. You can also activate this link before isolating the relay.
-4. **Verify.** Send a gold test packet along the restored route and watch it reach the ground station.
-5. **Restart.** Reset the mission and replay without leaving the scene.
+## Quick Start
 
-The mission illustrates how incident containment and service recovery work together. Isolating the relay cuts the original route, so the backup link must be available for the test packet to reach Ground.
+1. Click a satellite body to inspect its evidence. In XR, aim at the satellite and pinch.
+2. Find the relay forwarding commands that failed verification. With that relay selected, choose **Isolate**.
+3. Choose **Link D–E** to open the backup route.
+4. Choose **Verify** and follow the gold test packet to Ground.
+5. Choose **Restart** to replay the mission.
+
+<details>
+<summary>Judge walkthrough (spoiler)</summary>
+
+1. Inspect **Satellite B**, the primary relay. Its evidence panel shows that command verification failed.
+2. With **Satellite B** selected, choose **Isolate** to cut its primary links.
+3. Choose **Link D–E** to activate the backup route.
+4. Choose **Verify**. The gold test packet travels from **A → D → E → C → Ground**.
+5. Choose **Restart** to reset the mission.
+
+</details>
 
 <img width="1428" height="1075" alt="constellation-guardian" src="https://github.com/user-attachments/assets/48e22cab-a5af-4ee4-aea8-9aca91916f6e" />
 
