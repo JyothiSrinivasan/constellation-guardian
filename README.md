@@ -5,7 +5,7 @@ A seated WebXR cybersecurity game set in a fictional satellite network. In the *
 Built for the **Meta VR Start Developer Competition 2026** — Gaming track, New Experience division.
 
 - [Play the hosted build](https://constellation-guardian.pages.dev/)
-- [Watch the 24-second XR demo on YouTube](https://youtu.be/pePrSeimrMI)
+[Watch the Broken Relay Mission in XR](https://youtu.be/pePrSeimrMI)
 
 ## The mission: Broken Relay
 
